@@ -1,0 +1,33 @@
+/* CountdownTimer.css */
+
+.calendar {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.calendar-row {
+  display: flex;
+}
+
+.calendar-cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.header .calendar-cell {
+  font-weight: bold;
+}
+
+.today {
+  background-color: lightblue;
+}
+
+.event-day {
+  background-color: lightgreen;
+}
